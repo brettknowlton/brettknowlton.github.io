@@ -1,0 +1,148 @@
+body {
+    max-width: 100%;
+    background-color: #FFE4C4;
+    background: linear-gradient(#500000, #FFE4C4);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+    margin: 0;
+}
+
+header {
+    color: #999;
+    font-weight: bold;
+    padding-left: 2em;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    grid-column: 1 / 4;
+    grid-row: 1;
+}
+
+#header-img {
+    height: 100px;
+    width: 80%;
+    grid-column: 3;
+    grid-row: 1;
+}
+
+h1, h2, h3, h4{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+nav {
+    background-color: #500000;
+    padding: 0;
+    margin: 0;
+    grid-column: 1;
+    grid-row: 2;
+}
+
+nav a {
+    color: #999;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+
+    transition: background-color 2s linear;
+}
+
+nav a:hover {
+    color: #500000;
+    background-color: #FFE4C4;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+nav li {
+    padding: 0;
+}
+
+
+main {
+    padding: 0;
+    grid-column: 2/4;
+    grid-row: 2;
+    background-color: #FFE4C4;
+}
+
+main img {
+    width: 100%;
+}
+
+main p {
+    margin: 1em 0 0;
+    padding: 0 1em;
+}
+
+footer {
+    clear: both;
+    padding-top: 1em;
+    text-align: center;
+    font-size: 80%;
+    font-style: italic;
+    text-decoration: none;
+
+    grid-column: 2;
+    grid-row: 3;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+#grid {
+    display: grid;
+    margin: 0;
+    padding: 0;
+
+    grid-template-columns: auto 75% 10%;
+    grid-template-rows: 100px auto;
+}
+
+.button {
+    width: auto;
+    text-align: center;
+    margin: 5px 10px 5px 0px;
+    border: 1px solid;
+}
+
+.button:hover {
+    border: 1px solid #500000;
+}
+
+table{
+    border: 2px solid #999;
+    border-collapse: collapse;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+td{
+    border: 2px solid #999;
+}
+
+td:first-child{
+    font-weight: bolder;
+}
+
+tr:nth-of-type(odd){
+    background-color: #905050;
+}
+
+form {
+    display: block;
+}
+
+#labels {
+    float: left;
+    font-weight: bold;
+    line-height: 1.5em;
+    text-align: right;
+    margin-right: 2em;
+}
+
+#inputs {
+    line-height: 1.5em;
+}

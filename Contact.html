@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Konstruct Construction | Contact Us</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="grid">
+        <header>
+            <h1>
+                Konstruct Construction
+            </h1>
+
+        </header>
+        <img id="header-img" src="excavator.png" alt="excavator">
+
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html" class="button">
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="contact.html" class="button">
+                        Contact Us
+                    </a>
+                </li>
+                <li>
+                    <a href="portfolio.html" class="button">
+                        Portfolio
+                    </a>
+                </li>
+                <li>
+                    <a href="quotes.html" class="button">
+                        Get a Quote
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <main>
+            <h2>Contact Us</h2>
+            <p>Please fill out any important information and leave an email address. We will contact you as soon as
+                possible!<br>Required fields are noted with a *<br><br>
+            </p>
+            <form method="post" action="https://webdevbasics.net/scripts/demo.php">
+                <div id="labels">
+                    <label for="FirstName">*First Name:</label><br>
+                    <label for="LastName">*Last Name:</label><br>
+                    <label for="Company">Company / Employer:</label><br>
+                    <label for="Email">*E-Mail Address:</label><br>
+                    <label for="Phone">Telephone:</label><br>
+                    <label for="Message">*Message:</label><br>
+
+                </div>
+                <div id="inputs">
+                    <input type="text" name="FirstName" id="FirstName" required><br>
+                    <input type="text" name="LastName" id="LastName" required><br>
+                    <input type="text" name="Company" id="Company"><br>
+                    <input type="text" name="Email" id="Email" required><br>
+                    <input type="text" name="Phone" id="Phone"><br>
+                    <textarea name="Message" id="Message" required placeholder="Describe your project..."></textarea>
+                    <br>
+
+                </div>
+
+                <h4>*Select one of the options below:</h4>
+                <input type="radio" name="person" id="LLC" value="LLC">
+                <label for="LLC">I am a contracted developer working on a project for a LLC or similar</label><br>
+
+                <input type="radio" name="person" id="INDEPENDENT" value="INDEPENDENT" required>
+                <label for="INDEPENDENT">I am an independent developer working on a large-scale project (Commercial,
+                    Multi-family, parking structures, etc.)</label><br>
+
+                <input type="radio" name="person" id="PERSONAL" value="PERSONAL">
+                <label for="PERSONAL">I am an independent developer working on a small scale project(Homes,
+                    Landscaping)</label><br>
+
+                <input type="radio" name="person" id="OTHER" value="OTHER">
+                <label for="OTHER">None of these</label><br>
+
+                <input type="submit" value="Submit">
+
+            </form>
+
+
+        </main>
+
+        <footer>
+            Copyright &copy; 2022 Konstruct<br>
+            <a href="mailto:brettlknowlton@gmail.com">brettlknowlton@gmail.com</a><br><br>
+            <img src="nail.png" alt="nail icon" width="50" height="50">
+        </footer>
+    </div>
+
+
+</body>
+
+</html>
