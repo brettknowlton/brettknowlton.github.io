@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Petals by Alia - Home</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <h1>Petals by <span>Alia</span></h1>
+            <p>Soft • Romantic • Timeless Florals</p>
+            <hr>
+        </header>
+        <nav>
+            <div>
+                <a href="index.html">
+                    <div class="button">
+                        Home
+                    </div>
+                </a>
+                <hr>
+                <a href="about.html">
+                    <div class="button">
+                        About
+                    </div>
+                </a>
+                <hr>
+                <a href="order.html">
+                    <div class="button">
+                        Order
+                    </div>
+                </a>
+                <hr>
+                <a href="gallery.html">
+                    <div class="button">
+                        Gallery
+                    </div>
+                </a>
+                <hr>
+                <a href="contact.html">
+                    <div class="button">
+                        Contact
+                    </div>
+                </a>
+            </div>
+        </nav>
+
+        <main class="content">
+            <div>
+                <p>
+                    Create an order here. We&apos;ll reach out to discuss the details of your order and provide you with
+                    a quote. We look forward to working with you!
+                </p>
+                <p>
+                    <small><i>Required fields are marked with an asterisk (*).</i></small>
+                </p>
+                <form method="post" action="https://webdevbasics.net/scripts/demo.php">
+                    <label for="name">* Name:</label>
+                    <input type="text" id="name" name="name" required="required">
+
+                    <label for="email">* Email Address:</label>
+                    <input type="email" id="email" name="email" required="required">
+
+                    <label for="phone">* Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" required="required">
+
+                    <label for="item-requested">* Item Requested:</label>
+                    <select id="item-requested" name="item-requested" required="required">
+                        <option value="">--Please choose an option--</option>
+                        <option value="boquet">Boquet</option>
+                        <option value="corsage">Corsage</option>
+                        <option value="boutonniere">Boutonniere</option>
+                        <option value="wreath">Wreath</option>
+                        <option value="centerpiece">Centerpiece</option>
+                        <option value="other">Other</option>
+                    </select>
+
+                    <label>Flower(s) Desired:</label>
+                    <div id="flower-selector">
+
+                        <input type="checkbox" id="rose" name="rose" value="rose">
+                        <label for="rose">Roses</label>
+
+                        <input type="checkbox" id="tulip" name="tulip" value="tulip">
+                        <label for="tulip">Tulips</label>
+
+                        <input type="checkbox" id="lily" name="lily" value="lily">
+                        <label for="lily">Lilies</label>
+
+                        <input type="checkbox" id="daisy" name="daisy" value="daisy">
+                        <label for="daisy">Daisies</label>
+
+                        <input type="checkbox" id="orchid" name="orchid" value="orchid">
+                        <label for="orchid">Orchids</label>
+
+                        <input type="checkbox" id="peony" name="peony" value="peony">
+                        <label for="peony">Peonies</label>
+
+                        <input type="checkbox" id="other" name="other" value="other">
+                        <label for="other">Other</label>
+
+                        <input type="text" id="other-flower" name="other-flowers" placeholder="Please specify other(s)">
+
+                    </div>
+                    <label for="details">Additional Details:</label>
+                    <textarea id="details" name="details" rows="4"></textarea>
+
+                    <input type="submit" value="Place Order">
+
+                </form>
+            </div>
+
+
+
+        </main>
+
+
+        <div class="mini gallery">
+        </div>
+
+        <br class="clear-left">
+        <div class="links">
+
+            <a href="https://www.instagram.com/petalsbyalia" target="_blank">
+                <div class="button2">
+                    <img src="images/icon/instagram.png" alt="Instagram icon">
+                </div>
+            </a>
+        </div>
+        <hr>
+
+        <footer>
+            <i>
+                &copy; 2026 Petals by Alia<br>
+                Website issues? Email: <a href="mailto:admin@petalsbyalia.com">admin@petalsbyalia.com</a>
+            </i>
+        </footer>
+    </div>
+    <script src="src/gallery_maker.js"></script>
+</body>
+
+</html>
