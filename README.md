@@ -15,7 +15,7 @@ The Domain website does not currently work, you can check out this code at the d
 ### See domain Website ( cloudflare ): [Petals by Alia](petalsbyalia.com)
 
 Note: This website uses a randomized Gallery from a json image manifest- Images may not appear in the same place each time the site is visited:
-~~~
+```javascript
 function build_gallery(gallery, data) {
     console.log(`Building gallery in: ${gallery} using data: ${data}`)
     //with this list we can randomly select file-paths for images
@@ -36,4 +36,4 @@ function build_gallery(gallery, data) {
         gallery.innerHTML += imgHTML;
     })
 }
-~~~
+```
